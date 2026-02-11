@@ -30,7 +30,7 @@ for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
 
-e = 1
+let e = 1;
 while (e < 6) {
     console.log(e);
     e += 1;
@@ -63,7 +63,7 @@ function vowel_count(word) {
     let count = 0;
     for (let char of word.toLowerCase()) {
         if ("aeiou".includes(char)) {
-            count += 1;
+            count += 2;
         }
     }
     return count;
