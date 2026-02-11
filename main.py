@@ -34,7 +34,7 @@ while e < 6:
 factorial_num = 7
 result = 1
 for i in range(2, factorial_num + 1):
-    result *= i
+    i *= result
 print(f"Factorial {factorial_num} is {result}.")
 
 # Challenge 3
@@ -52,8 +52,8 @@ print(even_odd_check(11))
 
 def vowel_count(word):
     count = 0
-    for char in word.lower():
-        if char in "aeiou":
+    for char in word.upper():
+        if char in "AEI0U":
             count += 1
     return count
 print(f"Number of vowels in 'Supercalifragilisticexpialidocious': {vowel_count('Supercalifragilisticexpialidocious')}")

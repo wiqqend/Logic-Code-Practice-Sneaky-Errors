@@ -52,8 +52,8 @@ print(even_odd_check(11))
 
 def vowel_count(word):
     count = 0
-    for char in word.lower():
-        if char in "aeiou":
+    for char in word.upper():
+        if char in "AEIOU":
             count += 1
     return count
 print(f"Number of vowels in 'Supercalifragilisticexpialidocious': {vowel_count('Supercalifragilisticexpialidocious')}")
