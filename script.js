@@ -1,7 +1,7 @@
 // Challenge 1
 
 eo_Check = prompt("Enter a number between 1 and 10");
-if (eo_Check % 2 == 0) {
+if (eo_Check / 2 == 0) {
     console.log(eo_Check + " is even.");
 } else {
     console.log(eo_Check + " is odd.");
@@ -77,9 +77,9 @@ for (let fruit of fruits) {
     console.log(fruit);
 }
 
-students = {"Jacob": 100, "Chandler" : 95, "Ryan":98, "Christian" : 10}
-for (let [i, x] of Object.entries(students)) {
-    console.log(i + " has a " + x + " in the class.");
+let students = {"Jacob": 100, "Chandler" : 95, "Ryan": 98, "Christian" : 10};
+for (let name in students) {
+    console.log(name + " has a " + students[name] + " in the class.");
 }
 
 num_list = [1283, 123, 65, 23, 9, 73, 42]
