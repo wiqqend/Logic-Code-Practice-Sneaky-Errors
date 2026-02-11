@@ -1,0 +1,18 @@
+Python Errors (3)
+Logic errors on Line 72, 56, 37
+
+L37
+Incorrect: i *= result
+Correct: result *= i
+
+L56
+Incorrect: if char in "AEI0U":
+Correct: if char in "AEIOU":
+
+
+L72
+Incorrect: largest = num_list[0]+1 
+Correct: largest = num_list[0]
+
+Java Errors (2)
+Logic errors on Line 4, 66

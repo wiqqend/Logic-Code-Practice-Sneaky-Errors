@@ -69,7 +69,7 @@ for i, x in students.items():
     print(f"{i} has a {x} in the class.")
 
 num_list = [1283, 123, 65, 23, 9, 73, 42]
-largest = num_list[0]
+largest = num_list[0]+1
 for i in num_list:
     if i > largest:
         largest = i
